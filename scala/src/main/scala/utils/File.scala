@@ -9,4 +9,7 @@ object File {
    */
   def readFileLines(filename: String): Seq[String] =
     Source.fromFile(filename).getLines().toSeq
+
+  def readFileString(filename: String): String =
+    Source.fromFile(filename).mkString
 }

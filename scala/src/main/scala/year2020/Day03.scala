@@ -1,6 +1,7 @@
-package com.ochronus.year2020
+package com.ochronus
+package year2020
 
-import com.ochronus.utils.File
+import utils.File
 
 class Day03 {
   private val lines = File.readFileLines("day03.input.txt")
