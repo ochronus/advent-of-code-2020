@@ -46,7 +46,6 @@ def part2():
         elif (
             original_program[ip_to_change][0] == "nop"
             and original_program[ip_to_change][1] != "0"
-            and original_program[ip_to_change][1] != "-1"
         ):
             modified_program = deepcopy(original_program)
             modified_program[ip_to_change][0] = "jmp"
