@@ -1,12 +1,11 @@
 package com.ochronus
 
-import year2020.{Day09}
+import year2020.{Day10}
 
 object Runner {
   def main(args: Array[String]) = {
-    val problem = new Day09()
-    val outlier = problem.part1()
-    println("part 1: " + outlier)
-    println("part 2: " + problem.part2(outlier))
+    val problem = new Day10()
+    println("part 1: " + problem.part1())
+    println("part 2: " + problem.part2())
   }
 }
